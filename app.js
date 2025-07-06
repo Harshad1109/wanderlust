@@ -68,9 +68,9 @@ const sessionOptions = {
 };
 
 
-// app.get("/", (req,res) => {
-//     res.send("server is wroking");
-// });
+app.get("/", (req,res) => {
+    res.redirect("/listings")
+});
 
 
 
